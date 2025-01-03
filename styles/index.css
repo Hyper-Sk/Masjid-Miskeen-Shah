@@ -87,15 +87,18 @@ main {
   max-width: 1200px;
   margin-inline: auto;
   padding-block: 1rem;
+  display: flex;
+  justify-content: center;
 }
 .date-content p {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   font-weight: 400;
   text-align: center;
   background-color: gold;
   padding: 5px 30px;
   border-radius: 20px;
   display: inline-block;
+  border: 2px solid green;
 }
 
 .timings-content {
@@ -143,10 +146,20 @@ main {
   .timings-content {
     grid-template-columns: 1fr 1fr 1fr;
   }
+ 
 }
 @media screen and (max-width: 576px) {
   .timings-content {
     grid-template-columns: 1fr 1fr;
+  }
+  .timings-content .col h2 {
+    font-size: 1.1rem;
+  }
+  .timings-content .col h3 {
+    font-size: 1rem;
+  }
+  .timings-content .col h4 {
+    font-size: 0.9rem;
   }
 }
 
@@ -252,4 +265,8 @@ main {
   max-width: 1200px;
   margin-inline: auto;
 }
-
+@media screen and (max-width: 576px) {
+  .prayer {
+    padding: 2rem 2rem;
+  }
+}
