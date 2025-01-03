@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- styles -->
+    <link rel="stylesheet" href="./styles/global.css" />
+    <link rel="stylesheet" href="./styles/header.css" />
+    <link rel="stylesheet" href="./styles/footer.css" />
+    <link rel="stylesheet" href="./styles/index.css" />
+
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    
+    <!-- bootstrap css  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+
+    <title>Home - Masjid Miskeen Shah</title>
+  </head>
+  <body>
+    <main>
+      <header class="header">
+        <div class="topbar">
+          <p>Tulu Sunrise is at 6:00 PM</p>
+        </div>
+
+        <!-- desktop header  -->
+        <div class="header-main">
+          <div class="main-content">
+            <div class="main__logo">
+              <a href="">
+                <img src="./images/masjid-logo.png" alt="" />
+              </a>
+            </div>
+            <div class="menu">
+              <a href="./" class="active">Home</a>
+              <a href="./about.html">About</a>
+              <a href="./gallery.html">Gallery</a>
+              <a href="./contact.html">Contact</a>
+              <a href="./donate.html" class="donate-btn">Donate</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- mobile header  -->
+        <div class="header-mobile">
+          <div class="mobile-content">
+            <div class="mobile__logo">
+              <a href="./">
+                <img src="./images/masjid-logo.png" alt="" />
+              </a>
+            </div>
+            <div class="open">
+              <div></div>
+              <div></div>
+              <div></div>
+            </div>
+          </div>
+        </div>
+
+
+        <aside class="aside">
+          <div class="aside-content">
+            <a href="./" class="active">Home</a>
+              <a href="./about.html">About</a>
+              <a href="./gallery.html">Gallery</a>
+              <a href="./contact.html">Contact</a>
+              <a href="./donate.html" class="donate-btn">Donate</a>
+          </div>
+
+          <div class="close">
+            <i class="bi bi-x"></i>
+          </div>
+        </aside>
+      </header>
+
+      <section class="slider">
+        <!-- Swiper -->
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img
+                src="https://images.unsplash.com/photo-1674135140000-dadd7a9d8d6f?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt=""
+              />
+              <div class="overlay">
+                <div class="text">
+                  <img src="./images/lailaha.png" alt="" />
+                  <h1>Masjid-e-Miskeen Shah</h1>
+                  <p>
+                    Masjid-e-Miskeen Shah is a vibrant hub for worship,
+                    learning, and community service. It fosters spiritual growth
+                    through prayers, Quranic teachings, and social programs,
+                    welcoming all to experience unity, peace, and the essence of
+                    Islamic faith.
+                  </p>
+                  <a href="#">Learn More</a>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="https://images.unsplash.com/photo-1590190924082-30c948798ce3?q=80&w=1092&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt=""
+              />
+              <div class="overlay">
+                <div class="text">
+                  <img src="./images/lailaha.png" alt="" />
+                  <h1>Quran Classes</h1>
+                  <p>
+                    Join our Quran classes to explore the divine teachings of
+                    the Holy Quran. Learn proper recitation, memorization, and
+                    interpretation in a nurturing environment. Perfect for all
+                    ages, fostering spiritual growth, knowledge, and a deeper
+                    connection with Allah.
+                  </p>
+                  <a href="#">Learn More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- <div class="swiper-button-next"></div> -->
+          <!-- <div class="swiper-button-prev"></div> -->
+        </div>
+
+        <!-- Swiper JS -->
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+        <!-- Initialize Swiper -->
+        <script>
+          var swiper = new Swiper(".mySwiper", {
+            spaceBetween: 10,
+            autoplay: {
+              delay: 2500,
+              disableOnInteraction: false,
+            },
+            navigation: {
+              nextEl: ".swiper-button-next",
+              prevEl: ".swiper-button-prev",
+            },
+          });
+        </script>
+      </section>
+
+      <section class="timings">
+        <div class="date-content">
+          <p>12 Sawal - 24 March 20024</p>
+        </div>
+
+        <div class="timings-content">
+          <div class="col">
+            <h2>Fajr</h2>
+            <h3>Azaan</h3>
+            <h4>00:00</h4>
+            <h3>Iqama</h3>
+            <h4>00:00</h4>
+          </div>
+          <div class="col">
+            <h2>Zuhar</h2>
+            <h3>Azaan</h3>
+            <h4>01:15</h4>
+            <h3>Iqama</h3>
+            <h4>01:30</h4>
+          </div>
+          <div class="col">
+            <h2>Asar</h2>
+            <h3>Azaan</h3>
+            <h4>04:15</h4>
+            <h3>Iqama</h3>
+            <h4>04:30</h4>
+          </div>
+          <div class="col">
+            <h2>Magrib</h2>
+            <h3>Azaan</h3>
+            <h4>00:00</h4>
+            <h3>Iqama</h3>
+            <h4>Sunset</h4>
+          </div>
+          <div class="col">
+            <h2>Isha</h2>
+            <h3>Azaan</h3>
+            <h4>07:30</h4>
+            <h3>Iqama</h3>
+            <h4>07:45</h4>
+          </div>
+          <div class="col">
+            <h2>Jummah</h2>
+            <h3>Azaan</h3>
+            <h4>12:45</h4>
+            <h3>Iqama</h3>
+            <h4>01:20</h4>
+          </div>
+        </div>
+      </section>
+
+      <section class="heading">
+        <h1>About</h1>
+        <p>About masjid e miskeen shah</p>
+      </section>
+
+      <section class="about">
+        <div class="about-content">
+          <div class="left">
+            <h1>Welcome to Miskeen Shah Masjid</h1>
+            <p>
+              Miskeen Shah Masjid serves as the central hub for the Muslims in
+              the area. We have a thriving and ever-growing community
+              surrounding the Masjid that participates daily in the Masjid
+              activities. Whether you are a new Muslim, a non-Muslim or have
+              always been a Muslim, we invite you to come to the Masjid to
+              participate in the Masjid activities and learn more about Islam.
+            </p>
+            <a href="">learn More</a>
+          </div>
+          <div class="right">
+            <img src="./images/masjid/3.jpg" alt="" />
+          </div>
+        </div>
+      </section>
+
+      <section class="heading">
+        <h1>Gallery</h1>
+        <p>Learn Islamic Prayer</p>
+      </section>
+
+      <section class="gallery">
+        <div class="gallery-content">
+          <div class="image">
+            <img src="./images/masjid/1.jpg" alt="" />
+          </div>
+          <div class="image">
+            <img src="./images/masjid/8.jpg" alt="" />
+          </div>
+          <div class="image">
+            <img src="./images/masjid/3.jpg" alt="" />
+          </div>
+          <div class="image">
+            <img src="./images/masjid/4.jpg" alt="" />
+          </div>
+          <div class="image">
+            <img src="./images/masjid/5.jpg" alt="" />
+          </div>
+          <div class="image">
+            <img src="./images/masjid/6.jpg" alt="" />
+          </div>
+        </div>
+
+        <a href="./gallery.html">See More</a>
+      </section>
+
+      <section class="heading">
+        <h1>Islamic Prayer</h1>
+        <p>Learn Islamic Prayer</p>
+      </section>
+
+      <section class="prayer">
+        <div class="prayer-content">
+          <img src="./images/prayer.webp" alt="" />
+        </div>
+      </section>
+
+      <footer class="footer">
+        <div class="footer-content">
+          <div class="top">
+            <p>
+              © Copyright 2025 <span>Masjid-e-Miskeen Shah</span> All Right
+              Reserved.
+            </p>
+            <p><a href="#" target="_blank">masjid@gmail.com</a></p>
+          </div>
+          <div class="middle">
+            <p>Address : <a target="_blank" href="#">Miskeen Shah Bagh, Asif Nagar, Hyderabad.</a></p>
+          </div>
+          <div class="bottom">
+            <p>Powered by <a href="#">Developer</a></p>
+          </div>
+        </div>
+      </footer>
+    </main>
+
+
+
+    <!-- scripts  -->
+    <script src="./script/header.js"></script>
+  </body>
+</html>

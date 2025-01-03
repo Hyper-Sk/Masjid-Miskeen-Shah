@@ -1,0 +1,44 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap'); */
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lexend Deca", serif;
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+
+a,span,p,i{
+    font-size: 16px;
+    color: #282828;
+    letter-spacing: 0.3px;
+    line-height: 130%;
+}
+
+img{
+    width: 100%;
+}
+h1,h2,h3,h4,h5,h6{
+    letter-spacing: 0.3px;
+}
+.heading{
+    padding: 3rem 1rem 1rem 1rem;
+    text-align: center;
+}
+.heading h1{
+    font-size: 2.5rem;
+    margin-bottom: 5px;
+}
