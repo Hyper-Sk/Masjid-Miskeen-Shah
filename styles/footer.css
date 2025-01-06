@@ -9,8 +9,6 @@
   }
   .footer-content .top {
     padding-bottom: 1rem;
-    display: flex;
-    justify-content: space-between;
   }
   .footer-content .top p {
     color: #e9e9e9;
@@ -20,17 +18,6 @@
     color: #e9e9e9;
   }
   .footer-content .top span {
-    color: green;
-  }
-  
-  .footer-content .middle {
-    border-top: 1px solid rgba(255, 255, 255, 0.1);
-    padding-block: 1rem;
-  }
-  .footer-content .middle p {
-    color: #e9e9e9;
-  }
-  .footer-content .middle a {
     color: green;
   }
   

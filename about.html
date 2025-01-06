@@ -11,8 +11,10 @@
     <!-- styles -->
     <link rel="stylesheet" href="./styles/global.css" />
     <link rel="stylesheet" href="./styles/header.css" />
+    <link rel="stylesheet" href="./styles/loader.css" />
     <link rel="stylesheet" href="./styles/footer.css" />
-    <link rel="stylesheet" href="./styles/index.css" />
+    <link rel="stylesheet" href="./styles/donate.css" />
+    <link rel="stylesheet" href="./styles/about.css" />
 
     <!-- Link Swiper's CSS -->
     <link
@@ -29,11 +31,20 @@
     <title>Home - Masjid Miskeen Shah</title>
   </head>
   <body>
+    <div class="loader-container">
+      <img src="./images/icon.png" alt="" />
+      <div class="loader"></div>
+    </div>
+
     <main>
       <header class="header">
         <div class="topbar">
-          <p>Tulu Sunrise is at 6:00 PM</p>
+          <div class="topbar-content">
+            <p>Asif Nagar, Hyderabad</p>
+            <img src="./images/direction.png" alt="">
+          </div>
         </div>
+
 
         <!-- desktop header  -->
         <div class="header-main">
@@ -48,7 +59,7 @@
               <a href="./about.html" class="active">About</a>
               <a href="./gallery.html">Gallery</a>
               <a href="./contact.html">Contact</a>
-              <a href="./donate.html" class="donate-btn">Donate</a>
+              <a href="./admin.html" class="donate-btn">Admin</a>
             </div>
           </div>
         </div>
@@ -75,13 +86,15 @@
             <a href="./about.html" class="active">About</a>
             <a href="./gallery.html">Gallery</a>
             <a href="./contact.html">Contact</a>
-            <a href="./donate.html" class="donate-btn">Donate</a>
+            <a href="./admin.html" class="donate-btn">Admin</a>
           </div>
 
           <div class="close">
             <i class="bi bi-x"></i>
           </div>
+
         </aside>
+       
       </header>
 
       <section class="heading">
@@ -109,9 +122,17 @@
         </div>
       </section>
 
-      <section class="donate">
-        <div class="doante-content">
-
+       <section class="donate">
+        <div class="donate-content">
+          <img src="" alt="" />
+          <h2>Our Masjid Still Need Our Support</h2>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque
+            doloribus nulla, enim iure perferendis corporis vitae deleniti
+            exercitationem consectetur earum.
+          </p>
+          <h5><a href="">masjid@gmail.com</a></h5>
+          <h4><a href="">+91 000000000</a></h4>
         </div>
       </section>
 
@@ -122,16 +143,8 @@
               © Copyright 2025 <span>Masjid-e-Miskeen Shah</span> All Right
               Reserved.
             </p>
-            <p><a href="#" target="_blank">masjid@gmail.com</a></p>
           </div>
-          <div class="middle">
-            <p>
-              Address :
-              <a target="_blank" href="#"
-                >Miskeen Shah Bagh, Asif Nagar, Hyderabad.</a
-              >
-            </p>
-          </div>
+
           <div class="bottom">
             <p>Powered by <a href="#">Developer</a></p>
           </div>
@@ -141,5 +154,6 @@
 
     <!-- scripts  -->
     <script src="./script/header.js"></script>
+    <script src="./script/loader.js"></script>
   </body>
 </html>

@@ -1,0 +1,47 @@
+.salah{
+    background-color: #f1f1f1;
+    padding: 2rem 1rem;
+}
+
+.salah-content{
+    max-width:800px;
+    margin-inline: auto;
+}
+
+.salah-content h3{
+    font-weight: 500;
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+}
+.salah-content .col {
+    margin-bottom: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+.salah-content .col label{
+    display: block;
+    margin-bottom: 5px;
+    color: #666666;
+}
+.salah-content .col input{
+    height: 30px;
+    width: 100%;
+    outline: none;
+    border: 2px solid green;
+    border-radius: 0px;
+    padding-inline: 10px;
+}
+.salah-content .update{
+    display: flex;
+    justify-content: center;
+}
+.salah-content button{
+    padding: 10px 30px;
+    margin-top: 2rem;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}

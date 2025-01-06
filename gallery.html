@@ -9,6 +9,7 @@
      <link rel="icon" href="./images/icon.png" type="image/png">
 
     <!-- styles -->
+    <link rel="stylesheet" href="./styles/loader.css" />
     <link rel="stylesheet" href="./styles/global.css" />
     <link rel="stylesheet" href="./styles/header.css" />
     <link rel="stylesheet" href="./styles/footer.css" />
@@ -27,10 +28,18 @@
     <title>Home - Masjid Miskeen Shah</title>
   </head>
   <body>
+    <div class="loader-container">
+      <img src="./images/icon.png" alt="" />
+      <div class="loader"></div>
+    </div>
+
     <main>
       <header class="header">
         <div class="topbar">
-          <p>Tulu Sunrise is at 6:00 PM</p>
+          <div class="topbar-content">
+            <p>Asif Nagar, Hyderabad</p>
+            <img src="./images/direction.png" alt="">
+          </div>
         </div>
 
         <!-- desktop header  -->
@@ -46,7 +55,7 @@
                 <a href="./about.html">About</a>
                 <a href="./gallery.html" class="active">Gallery</a>
                 <a href="./contact.html">Contact</a>
-                <a href="./donate.html" class="donate-btn">Donate</a>
+                <a href="./admin.html" class="donate-btn">Admin</a>
             </div>
           </div>
         </div>
@@ -74,7 +83,7 @@
                 <a href="./about.html">About</a>
                 <a href="./gallery.html" class="active">Gallery</a>
                 <a href="./contact.html">Contact</a>
-                <a href="./donate.html" class="donate-btn">Donate</a>
+                <a href="./admin.html" class="donate-btn">Admin</a>
           </div>
 
           <div class="close">
@@ -134,11 +143,8 @@
               © Copyright 2025 <span>Masjid-e-Miskeen Shah</span> All Right
               Reserved.
             </p>
-            <p><a href="#" target="_blank">masjid@gmail.com</a></p>
           </div>
-          <div class="middle">
-            <p>Address : <a target="_blank" href="#">Miskeen Shah Bagh, Asif Nagar, Hyderabad.</a></p>
-          </div>
+
           <div class="bottom">
             <p>Powered by <a href="#">Developer</a></p>
           </div>
@@ -150,5 +156,6 @@
 
     <!-- scripts  -->
     <script src="./script/header.js"></script>
+    <script src="./script/loader.js"></script>
   </body>
 </html>

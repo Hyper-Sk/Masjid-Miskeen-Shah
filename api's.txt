@@ -1,0 +1,10 @@
+
+sunrise and sunset api - - 
+https://api.sunrisesunset.io/json?lat=17.38405&lng=78.45636
+
+
+
+hijri date - - 
+https://hijri.habibur.com/api01/date/?format=json
+
+

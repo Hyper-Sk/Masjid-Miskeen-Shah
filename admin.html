@@ -10,11 +10,11 @@
 
     <!-- styles -->
     <link rel="stylesheet" href="./styles/global.css" />
-    <link rel="stylesheet" href="./styles/loader.css" />
     <link rel="stylesheet" href="./styles/header.css" />
     <link rel="stylesheet" href="./styles/footer.css" />
+    <link rel="stylesheet" href="./styles/loader.css" />
     <link rel="stylesheet" href="./styles/donate.css" />
-    <link rel="stylesheet" href="./styles/contact.css" />
+    <link rel="stylesheet" href="./styles/admin.css" />
 
     <!-- Link Swiper's CSS -->
     <link
@@ -32,9 +32,9 @@
   </head>
   <body>
     <div class="loader-container">
-        <img src="./images/icon.png" alt="" />
-        <div class="loader"></div>
-      </div>
+      <img src="./images/icon.png" alt="" />
+      <div class="loader"></div>
+    </div>
 
     <main>
       <header class="header">
@@ -55,10 +55,10 @@
             </div>
             <div class="menu">
               <a href="./">Home</a>
-              <a href="./about.html" >About</a>
+              <a href="./about.html">About</a>
               <a href="./gallery.html">Gallery</a>
-              <a href="./contact.html" class="active">Contact</a>
-              <a href="./admin.html" class="donate-btn">Admin</a>
+              <a href="./contact.html">Contact</a>
+              <a href="./admin.html" class="donate-btn active">Admin</a>
             </div>
           </div>
         </div>
@@ -82,10 +82,10 @@
         <aside class="aside">
           <div class="aside-content">
             <a href="./">Home</a>
-            <a href="./about.html" >About</a>
+            <a href="./about.html">About</a>
             <a href="./gallery.html">Gallery</a>
-            <a href="./contact.html" class="active">Contact</a>
-            <a href="./admin.html" class="donate-btn">Admin</a>
+            <a href="./contact.html">Contact</a>
+            <a href="./admin.html" class="donate-btn active">Admin</a>
           </div>
 
           <div class="close">
@@ -95,52 +95,83 @@
       </header>
 
       <section class="heading">
-        <h1>Contact</h1>
-        <p>Write query to masjid e miskeen shah or last and found item</p>
+        <h1>Salah Timings</h1>
+        <p>Edit Salah Timings</p>
       </section>
 
-      <section class="form">
-        <form class="form-content">
-            <div class="col">
-                <label for="">Full Name</label>
-                <input type="text">
+      <section class="salah">
+        <form class="salah-content">
+          <h3>Fajr</h3>
+          <div class="col">
+            <div>
+              <label for="">Azaan</label>
+              <input type="text" />
             </div>
-            <div class="col">
-                <label for="">Lost/Found Item Name</label>
-                <input type="text">
+            <div>
+              <label for="">Iqama</label>
+              <input type="text" />
             </div>
-            <div class="col">
-                <label for="">Phone</label>
-                <input type="tel">
+          </div>
+          <h3>Zuhar</h3>
+          <div class="col">
+            <div>
+              <label for="">Azaan</label>
+              <input type="text" />
             </div>
-            <div class="col">
-                <label for="">Query</label>
-                <textarea></textarea>
+            <div>
+              <label for="">Iqama</label>
+              <input type="text" />
             </div>
-            <div class="col">
-                <span>Are you a Masjid Musali ?</span>
-                <input type="checkbox">
+          </div>
+          <h3>Asar</h3>
+          <div class="col">
+            <div>
+              <label for="">Azaan</label>
+              <input type="text" />
             </div>
+            <div>
+              <label for="">Iqama</label>
+              <input type="text" />
+            </div>
+          </div>
+          <h3>Maghrib</h3>
+          <div class="col">
+            <div>
+              <label for="">Azaan</label>
+              <input type="text" />
+            </div>
+            <div>
+              <label for="">Iqama</label>
+              <input type="text" />
+            </div>
+          </div>
+          <h3>Isha</h3>
+          <div class="col">
+            <div>
+              <label for="">Azaan</label>
+              <input type="text" />
+            </div>
+            <div>
+              <label for="">Iqama</label>
+              <input type="text" />
+            </div>
+          </div>
+          <h3>Jummah</h3>
+          <div class="col">
+            <div>
+              <label for="">Azaan</label>
+              <input type="text" />
+            </div>
+            <div>
+              <label for="">Iqama</label>
+              <input type="text" />
+            </div>
+          </div>
 
-            <div class="btn">
-                <button type="submit">Sumbit</button>
-            </div>
+          <div class="update">
+            <button>Update Timings</button>
+          </div>
         </form>
-      </section>
-
-      <section class="donate">
-        <div class="donate-content">
-          <img src="" alt="" />
-          <h2>Donate</h2>
-          <h3>Our Masjid Still Need Our Support</h3>
-          <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque
-            doloribus nulla, enim iure perferendis corporis vitae deleniti
-            exercitationem consectetur earum.
-          </p>
-          <h5><a href="">masjid@gmail.com</a></h5>
-          <h4><a href="">+91 000000000</a></h4>
-        </div>
       </section>
 
       <footer class="footer">
