@@ -220,7 +220,12 @@ main {
 @media screen and (max-width: 768px) {
   .about-content {
     grid-template-columns: 1fr;
+    gap: 10px;
   }
+  .about-content .right {
+    grid-row-start: 1;
+  }
+  
 }
 @media screen and (max-width: 576px) {
 }

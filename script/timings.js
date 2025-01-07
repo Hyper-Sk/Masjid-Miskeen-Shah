@@ -23,7 +23,7 @@ function getData(d) {
   sunset = d.data.timings.Sunset
   let sunriseElement = document.querySelector(".bottombar .bottombar-content");
   //   console.log(sunriseElement);
-  sunriseElement.innerHTML = `<p>Sunrise : ${sunrise} </p> <p>Sunset : ${sunset}</p>`;
+  sunriseElement.innerHTML = `<p>Sunrise : ${sunrise} AM </p> <p>Sunset : ${sunset} PM</p>`;
 }
 
 function dateBar(hijriDate) {
