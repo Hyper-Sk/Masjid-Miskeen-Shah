@@ -42,3 +42,9 @@ h1,h2,h3,h4,h5,h6{
     font-size: 2.5rem;
     margin-bottom: 5px;
 }
+@media screen and (max-width: 576px) {
+    .heading{
+        padding: 3rem 1rem 0rem 1rem;
+        text-align: center;
+    }
+}
