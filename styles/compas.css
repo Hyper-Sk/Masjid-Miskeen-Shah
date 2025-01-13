@@ -49,6 +49,8 @@ transition: opacity 0.5s ease-out;
 
 .start-btn {
 margin-bottom: auto;
+opacity: 0;
+visibility: hidden;
 }
 
 
