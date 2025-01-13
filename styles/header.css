@@ -101,21 +101,26 @@
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(5px);
   border-left: 4px solid green;
+
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .aside .aside-content {
   display: flex;
   flex-direction: column;
+  align-items: end;
 }
 .aside .aside-content a {
-  font-size: 2rem;
+  font-size: 1.9rem;
   margin-bottom: 1rem;
   transition: 0.3s;
-  font-weight: 500;
+  font-weight: 400;
+  /* border-bottom: 1px solid rgba(0, 0, 0, 0.1); */
 }
 .aside .aside-content a.active {
   color: green;
-  padding-left: 2rem;
+  padding-right: 2rem;
 }
 .aside .aside-content a:hover {
   color: green;
@@ -123,25 +128,45 @@
 .aside .close {
   position: absolute;
   height: 35px;
-  width: 35px;
+  width: 40px;
   right: 1rem;
   top: 1rem;
   z-index: 9999;
-  border-radius: 50%;
+  border-radius: 5px;
   display: flex;
   justify-content: center;
   align-items: center;
   box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
   cursor: pointer;
-  background-color: white;
+  background-color: green;
 }
 .aside .close i {
   font-size: 1.9rem;
   transition: 0.3s;
+  color: white;
 }
 .aside .close i:hover {
   transform: rotate(90deg);
 }
+
+.aside .bottom{
+  display: flex;
+  gap: 15px;
+}
+.aside .bottom i{
+  font-size: 1.5rem;
+}
+.aside .bottom i:hover{
+  color: green;
+}
+
+
+
+
+
+
+
+
 .bottombar{
   background-color: green;
 
@@ -168,6 +193,6 @@
     display: block;
   }
   .aside {
-    display: block;
+    display: flex;
   }
 }
